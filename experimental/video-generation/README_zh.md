@@ -14,7 +14,7 @@ diffusion 引擎在单节点上提供服务，[`specs/h3.yaml`](specs/h3.yaml) �
 `benchmarks/single_node/srt-slurm-recipes/h3/` 下的 SKU 配方通过
 `python3 -m infx.bench video serve` 把引擎作为 generic service 启动，
 并以 `benchmark.type: custom` 运行 `python3 -m infx.bench video client`。
-本目录以 `/h3-package` 挂载进任务。H200 选用 20 条视频的
+本目录以 `/h3-package` 挂载进任务。H200 与 GB200 选用 20 条视频的
 `release-v1` 集合；B200 在 C1/C2/C4 选用 4 条视频的 `frozen-c124` 集合。
 产物身份、复用校验与合并后发布见
 [原生视频交付](../../inferencex-e2e/docs/video-generation.md)。
